@@ -26,7 +26,7 @@ In this project, we aimed to design the architecture of a PCB containing a gas s
 ###Eeschema
 To begin with, we designed the following circuit on Eeschema:
 
-![Figure 1:  Circuit architecture](/images/Figure1.png)
+![Figure 1:  Circuit architecture](/GazSensor-Rodier&Xu/images/Figure1.png)
 Format: ![Alt Text](url)
 Figure 1:  Circuit architecture
 
@@ -38,13 +38,13 @@ Then we added the Arduino UNO card and connect its pins with other parts in this
 
 Finally, we draw a grove connector symbol in order to plug the reference gas sensor. The final structure of Eeschema file is shown in the figure 2.
 
-![Figure 2:  Eeschema file](/images/Figure2.png)
+![Figure 2:  Eeschema file](/GazSensor-Rodier&Xu/images/Figure2.png)
 Format: ![Alt Text](url)
 Figure 2: Eeschema file
 
 After having finished that, we chose the correct footprint component. If needed, import one. We chose the footprint as followed:
 
-![Figure 3:  Footprint selection](/images/Figure3.png)
+![Figure 3:  Footprint selection](/GazSensor-Rodier&Xu/images/Figure3.png)
 Format: ![Alt Text](url)
 Figure 3 : Footprint selection
 
@@ -53,7 +53,7 @@ Finally, we produce the netlist, so we can import the footprint on the next tool
 ###PCBnew
 PCBnew is a powerful tool allowing you to display every component in 2 or 3D and design your pcb. Import the netlist and arrange the component so the “chevelus” (the white line) do not cross. Then, change the track dimension to their appropriate size as described on the next picture:
 
-![Figure 3:  Appropriate size for lines](/images/Figure4.png)
+![Figure 3:  Appropriate size for lines](/GazSensor-Rodier&Xu/images/Figure4.png)
 Format: ![Alt Text](url)
 Figure 4: Appropriate size for lines
 
