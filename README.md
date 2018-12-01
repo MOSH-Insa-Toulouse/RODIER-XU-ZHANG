@@ -26,6 +26,8 @@ In this project, we aimed to design the architecture of a PCB containing a gas s
 ###Eeschema
 To begin with, we designed the following circuit on Eeschema:
 
+![Figure 1:  Circuit architecture](/images/Figure1.png)
+Format: ![Alt Text](url)
 Figure 1:  Circuit architecture
 
 In this diagram, we can see clearly there are some resistances, capacitances and a LTC1050 model (cf. Features AOP). In fact, in the practice course KiCAD, we have realized a LTC1050 symbol and saved it in the library, so here in the Eeschema file we can use it directly. 
@@ -36,12 +38,14 @@ Then we added the Arduino UNO card and connect its pins with other parts in this
 
 Finally, we draw a grove connector symbol in order to plug the reference gas sensor. The final structure of Eeschema file is shown in the figure 2.
 
-
+![Figure 2:  Eeschema file](/images/Figure2.png)
+Format: ![Alt Text](url)
 Figure 2: Eeschema file
 
 After having finished that, we chose the correct footprint component. If needed, import one. We chose the footprint as followed:
 
-
+![Figure 3:  Footprint selection](/images/Figure3.png)
+Format: ![Alt Text](url)
 Figure 3 : Footprint selection
 
 Finally, we produce the netlist, so we can import the footprint on the next tool: PCBnew.
@@ -49,7 +53,8 @@ Finally, we produce the netlist, so we can import the footprint on the next tool
 ###PCBnew
 PCBnew is a powerful tool allowing you to display every component in 2 or 3D and design your pcb. Import the netlist and arrange the component so the “chevelus” (the white line) do not cross. Then, change the track dimension to their appropriate size as described on the next picture:
 
-
+![Figure 3:  Appropriate size for lines](/images/Figure4.png)
+Format: ![Alt Text](url)
 Figure 4: Appropriate size for lines
 
 Draw the tracks in order to connect every component between each other. As there are no automatic arrangement features in kicad, you will probably need to do it a few times. TIP: use the “Reglage du routeur interactif” (Ctrl+,) feature. When you are done, fill the pcb and plot the Gerber plot and drill files to be able to print your brand new pcb card.
