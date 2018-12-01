@@ -4,10 +4,10 @@ Some kicad files to print the PCB of a gas sensor Arduino UNO shield.
 ## Authors: Nicolas RODIER, Hao XU and Guangjie ZHANG from 2018-2019 5th year Innovative Smart System at Insa Toulouse
 
 ## Credits
-*This kicad project was inspired by Jeremie Grisolia’s work (Université de Toulouse LPCNO/INSA, jeremie.grisolia@insa-toulouse.fr): 
->Un «smart device» à base de capteur de gaz à nanoparticules 
-*The GROVE footprint was inspired by ShrodingersGat’s work, found on https://github.com/KiCad/Connectors.pretty.
-*This project would not have been possible without Arnaud Biganzoli’s course (INSA Toulouse) and the “Getting started” Kicad documentation (http://docs.kicad-pcb.org/master/nl/getting_started_in_kicad.pdf).
+>This kicad project was inspired by Jeremie Grisolia’s work (Université de Toulouse LPCNO/INSA, jeremie.grisolia@insa-toulouse.fr): 
+Un «smart device» à base de capteur de gaz à nanoparticules 
+>The GROVE footprint was inspired by ShrodingersGat’s work, found on https://github.com/KiCad/Connectors.pretty.
+>This project would not have been possible without Arnaud Biganzoli’s course (INSA Toulouse) and the “Getting started” Kicad documentation (http://docs.kicad-pcb.org/master/nl/getting_started_in_kicad.pdf).
 
 ##Aim: 
 In this project, we aimed to design the architecture of a PCB containing a gas sensor to be integrated on a Arduino UNO card. 
