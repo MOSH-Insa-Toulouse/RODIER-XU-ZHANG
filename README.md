@@ -37,12 +37,12 @@ Then we added the Arduino UNO card and connect its pins with other parts in this
 
 Finally, we draw a grove connector symbol in order to plug the reference gas sensor. The final structure of Eeschema file is shown in the figure 2.
 
-![Figure 2:  Eeschema file](/GazSensor-Rodier&Xu/images/Figure2.png)
+![Figure 2: Eeschema file](/GazSensor-Rodier&Xu/images/Figure2.png)
 Figure 2: Eeschema file
 
 After having finished that, we chose the correct footprint component. If needed, import one. We chose the footprint as followed:
 
-![Figure 3:  Footprint selection](/GazSensor-Rodier&Xu/images/Figure3.png)
+![Figure 3: Footprint selection](/GazSensor-Rodier&Xu/images/Figure3.png)
 Figure 3 : Footprint selection
 
 Finally, we produce the netlist, so we can import the footprint on the next tool: PCBnew.
