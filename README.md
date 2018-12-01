@@ -9,21 +9,21 @@ Un «smart device» à base de capteur de gaz à nanoparticules
 * The GROVE footprint was inspired by ShrodingersGat’s work, found on https://github.com/KiCad/Connectors.pretty.
 * This project would not have been possible without Arnaud Biganzoli’s course (INSA Toulouse) and the [“Getting started” Kicad documentation](http://docs.kicad-pcb.org/master/nl/getting_started_in_kicad.pdf).
 
-##Aim: 
+## Aim: 
 In this project, we aimed to design the architecture of a PCB containing a gas sensor to be integrated on a Arduino UNO card. 
 
-##Features:
-*A TO5 connector compliant gas sensor (cf. Rsensor on figure 1). 
-*A grove connector compliant gas sensor for reference.
-*LoRa communication system.
-*Noise shielded devices using a low pass filter (C1, C4 and C2, see fig1).
-*An AOP (LTC1050)
-*3x100kF and 1xµF condensators.
-*1x220Ω, 2x1kΩ, 1x10kΩ, 2x100kΩ resistors
-*Connected to an arduino board.
+## Features:
+* A TO5 connector compliant gas sensor (cf. Rsensor on figure 1). 
+* A grove connector compliant gas sensor for reference.
+* LoRa communication system.
+* Noise shielded devices using a low pass filter (C1, C4 and C2, see fig1).
+* An AOP (LTC1050)
+* 3x100kF and 1xµF condensators.
+* 1x220Ω, 2x1kΩ, 1x10kΩ, 2x100kΩ resistors
+* Connected to an arduino board.
 
-##Process:
-###Eeschema
+## Process:
+### Eeschema
 To begin with, we designed the following circuit on Eeschema:
 
 ![Figure 1:  Circuit architecture](/GazSensor-Rodier&Xu/images/Figure1.png)
@@ -47,7 +47,7 @@ Figure 3 : Footprint selection
 
 Finally, we produce the netlist, so we can import the footprint on the next tool: PCBnew.
 
-###PCBnew
+### PCBnew
 PCBnew is a powerful tool allowing you to display every component in 2 or 3D and design your pcb. Import the netlist and arrange the component so the “chevelus” (the white line) do not cross. Then, change the track dimension to their appropriate size as described on the next picture:
 
 ![Figure 4:  Appropriate size for lines](/GazSensor-Rodier&Xu/images/Figure4.png)
@@ -55,16 +55,14 @@ Figure 4: Appropriate size for lines
 
 Draw the tracks in order to connect every component between each other. As there are no automatic arrangement features in kicad, you will probably need to do it a few times. TIP: use the “Reglage du routeur interactif” (Ctrl+,) feature. When you are done, fill the pcb and plot the Gerber plot and drill files to be able to print your brand new pcb card.
 
-###Gerber
+### Gerber
 Examine carefully your files. If everything is fine, you can send it to your favorite 3D printer !
 
-##Additional remarks
+## Additional remarks
 The system could be fully shielded using a digital filter directly on the microprocessor. Finally, we could add a LCD screen in order to visually monitor the gas sensor activity. 
 
-##References
-*[UF Microcontrolleurs et open-source hardware](https://moodle.insa-toulouse.fr/course/view.php?id=494)
-*[The impedance adaptation circuit](https://moodle.insa-toulouse.fr/pluginfile.php/70769/mod_resource/content/1/The_impedance_adaptation_circuit.pdf)
-*[Datasheet TO5](https://docs-emea.rs-online.com/webdocs/0f9e/0900766b80f9e51c.pdf)
-*[Datasheet RN2483](http://ww1.microchip.com/downloads/en/DeviceDoc/50002346C.pdf)
-
-
+## References
+* [UF Microcontrolleurs et open-source hardware](https://moodle.insa-toulouse.fr/course/view.php?id=494)
+* [The impedance adaptation circuit](https://moodle.insa-toulouse.fr/pluginfile.php/70769/mod_resource/content/1/The_impedance_adaptation_circuit.pdf)
+* [Datasheet TO5](https://docs-emea.rs-online.com/webdocs/0f9e/0900766b80f9e51c.pdf)
+* [Datasheet RN2483](http://ww1.microchip.com/downloads/en/DeviceDoc/50002346C.pdf)
