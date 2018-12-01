@@ -1,5 +1,5 @@
 Drill report for C:\Users\mailn\Documents\Insa Toulouse\Kicad\GazSensor-Rodier&Xu\GazSensor-Rodier&Xu.kicad_pcb
-Created on 30/11/2018 17:17:34
+Created on 01/12/2018 13:56:03
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file 'GazSensor-Rodier&Xu-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,70mm  0,028"  (14 holes)
+    T1  0,70mm  0,028"  (10 holes)
     T2  0,76mm  0,030"  (4 holes)
     T3  0,80mm  0,031"  (58 holes)
 
-    Total plated holes count 76
+    Total plated holes count 72
 
 
 Drill file 'GazSensor-Rodier&Xu-NPTH.drl' contains

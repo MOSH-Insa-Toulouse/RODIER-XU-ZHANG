@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0)*
-G04 #@! TF.CreationDate,2018-11-30T17:16:34+01:00*
+G04 #@! TF.CreationDate,2018-12-01T13:55:55+01:00*
 G04 #@! TF.ProjectId,GazSensor-Rodier&Xu,47617A53656E736F722D526F64696572,1.0*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot,Signal*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.0)) date 11/30/18 17:16:34*
+G04 Created by KiCad (PCBNEW (5.0.0)) date 12/01/18 13:55:55*
 %MOMM*%
 %LPD*%
 G01*
@@ -33,22 +33,16 @@ G04 #@! TA.AperFunction,ComponentPad*
 %ADD16O,1.400000X1.400000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD17O,1.200000X1.600000*%
+%ADD17R,1.524000X1.524000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD18O,1.200000X1.200000*%
+%ADD18C,1.524000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD19R,1.524000X1.524000*%
+%ADD19R,1.350000X1.350000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD20C,1.524000*%
-G04 #@! TD*
-G04 #@! TA.AperFunction,ComponentPad*
-%ADD21R,1.350000X1.350000*%
-G04 #@! TD*
-G04 #@! TA.AperFunction,ComponentPad*
-%ADD22O,1.350000X1.350000*%
+%ADD20O,1.350000X1.350000*%
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
@@ -232,24 +226,10 @@ G04 #@! TO.N,arduinognd*
 X161290000Y-110490000D03*
 G04 #@! TD*
 D17*
-G04 #@! TO.P,Rsensor1,1*
-G04 #@! TO.N,N/C*
-X121920000Y-97790000D03*
-D18*
-G04 #@! TO.P,Rsensor1,2*
-G04 #@! TO.N,arduino3v*
-X124460000Y-95250000D03*
-G04 #@! TO.P,Rsensor1,3*
-G04 #@! TO.N,N/C*
-X121920000Y-92710000D03*
-G04 #@! TO.P,Rsensor1,4*
-X119380000Y-95250000D03*
-G04 #@! TD*
-D19*
 G04 #@! TO.P,cGrove1,1*
 G04 #@! TO.N,arduinognd*
 X129540000Y-110490000D03*
-D20*
+D18*
 G04 #@! TO.P,cGrove1,2*
 G04 #@! TO.N,arduino3v*
 X129540000Y-112490000D03*
@@ -260,11 +240,11 @@ G04 #@! TO.P,cGrove1,4*
 G04 #@! TO.N,arduinoSCL*
 X129540000Y-116490000D03*
 G04 #@! TD*
-D21*
+D19*
 G04 #@! TO.P,J1,1*
 G04 #@! TO.N,arduinoTx*
 X166370000Y-119380000D03*
-D22*
+D20*
 G04 #@! TO.P,J1,2*
 G04 #@! TO.N,arduinoRx*
 X164370000Y-119380000D03*
@@ -285,13 +265,13 @@ G04 #@! TO.P,J1,8*
 G04 #@! TO.N,arduinognd*
 X152370000Y-119380000D03*
 G04 #@! TD*
-D21*
+D19*
 G04 #@! TO.P,J2,1*
 G04 #@! TO.N,arduino3v*
-X146050000Y-83820000D03*
-D22*
+X132080000Y-83820000D03*
+D20*
 G04 #@! TO.P,J2,2*
 G04 #@! TO.N,Net-(J2-Pad2)*
-X146050000Y-85820000D03*
+X132080000Y-85820000D03*
 G04 #@! TD*
 M02*
