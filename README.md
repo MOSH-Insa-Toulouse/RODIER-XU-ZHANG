@@ -26,7 +26,7 @@ In this project, we aimed to design the architecture of a PCB containing a gas s
 ### Eeschema
 To begin with, we designed the following circuit on Eeschema:
 
-![Figure 1:  Circuit architecture](/GazSensor-Rodier&Xu/images/Figure1.png)
+![Figure 1:  Circuit architecture] (/GazSensor-Rodier&Xu/images/Figure1.png)
 Figure 1:  Circuit architecture
 
 In this diagram, we can see clearly there are some resistances, capacitances and a LTC1050 model (cf. Features AOP). In fact, in the practice course KiCAD, we have realized a LTC1050 symbol and saved it in the library, so here in the Eeschema file we can use it directly. 
@@ -37,7 +37,7 @@ Then we added the Arduino UNO card and connect its pins with other parts in this
 
 Finally, we draw a grove connector symbol in order to plug the reference gas sensor. The final structure of Eeschema file is shown in the figure 2.
 
-![Figure 2: Eeschema file](/GazSensor-Rodier&Xu/images/Figure2.png)
+![Figure 2: Eeschema file] (/GazSensor-Rodier&Xu/images/Figure2.png)
 Figure 2: Eeschema file
 
 After having finished that, we chose the correct footprint component. If needed, import one. We chose the footprint as followed:
